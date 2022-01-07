@@ -1,0 +1,119 @@
+{
+  "Songs" :[
+    {
+      "name": "Athi",
+      "id": 1,
+      "musicDirector" : "U1",
+      "movie" : "7g",
+      "singer" : "U1",
+      "genre" : "pop",
+      "year" : 2021
+  },
+  {
+      "name": "CA",
+      "id": 2,
+      "musicDirector" : "U1",
+      "movie" : "asuran",
+      "singer" : "U1",
+      "genre" : "Genre",
+      "year" : 2019
+  },
+  {
+    "name" : "Chandra Athithan",
+    "id" : 3,
+    "musicDirector" : "Harris",
+    "movie" : "ngk",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2020
+  },
+  {
+    "name" : "Chandra",
+    "id" : 4,
+    "musicDirector" : "ARR",
+    "movie" : "mersal",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "Athithan",
+    "id" : 5,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "Sid",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "Naveen",
+    "id" : 6,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "Ani",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "Chandra Athi",
+    "id" : 7,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "CAthithan",
+    "id" : 8,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "ChandraAthi",
+    "id" : 9,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "ChandraAthithan",
+    "id" : 10,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  },
+  {
+    "name" : "AC",
+    "id" : 11,
+    "musicDirector" : "U1",
+    "movie" : "Test",
+    "singer" : "U1",
+    "genre" : "Genre",
+    "year" : 2021
+  }
+  ],
+  "CA" : [
+    {
+      "name": "Athi",
+      "id": 1,
+      "musicDirector" : "U1",
+      "movie" : "7g",
+      "singer" : "U1",
+      "genre" : "pop",
+      "year" : 2021,
+      "youtubeLink" : "https://www.youtube.com/embed/tgbNymZ7vqY",
+      "notes" : ["C5 C5 A#4 C5 A#4 G4 A#4 __ A#4 C5 A#4 C5 A#4 G4 A#4 (Aanandha Yazhai Meetugiraai)",
+      "A#4 C5 A#4 C5 A#4 G4 G#4 __ G4 F4 F4 F4 (Adi Nenjil Vannam Theetugiraai)",
+      "C5 C5 A#4 C5 A#4 G4 A#4 __ A#4 C5 A#4 C5 A#4 G4 A#4 (Anbennum Kudayai Neetugiraai)",
+      "A#4 C5 A#4 C5 A#4 G4 G#4 __ G4 F4 F4 F4 (Adhil Aayiram Mazhai Thuli Kootugiraai)"]
+    }
+  ]
+}
