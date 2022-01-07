@@ -1,0 +1,108 @@
+.video, .data {
+    margin-top: 20px;
+    background-color: rgba(0,0,0,0.5);
+    height: 65vh;
+    display: inline-flex;
+}
+.data {
+    float: right;
+    width: 30%;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+iframe {
+    height: 100%;
+    width: 100%;
+}
+.video {
+    width: 70%;
+}
+.title {
+    width: 150px;
+    font-size: larger;
+}
+.value {
+    font-size: larger;
+}
+h3 {
+    font-weight: bold;
+}
+.heading {
+    text-align: center;
+}
+.songNote {
+    width: 50%;
+}
+.notesRow {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.notes {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.songNotes {
+    padding-left: 15%;
+}
+a, p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
+    text-decoration: none;
+}
+img {
+    height: 32px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.me:hover{
+    color: teal;
+}
+.footer {
+    background: transparent;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+.info{
+    height: 50px;
+}
+@media screen and (max-width: 600px) {
+    .video, .data {
+        display: flex;
+        flex-direction: row;
+        width: 100% !important;
+    }
+    p {
+        margin-top: 10px;
+    }
+    .notes {
+        display: inline-block;
+        width: 100%;
+    }
+    .notesRow {
+        margin-bottom: 0px;
+    }
+    .songNotes {
+        padding-left: 0%;
+    }
+    .icons {
+        height: 32px;
+        padding-top: 7px;
+        padding-left: 20px;
+    }
+    .me:hover{
+        color: teal;
+    }
+    .footer {
+        background: transparent;
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        padding: 0px 0px !important;
+    }
+}

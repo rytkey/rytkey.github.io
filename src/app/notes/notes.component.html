@@ -1,0 +1,56 @@
+<div class="container">
+    <div class="video">
+        <iframe [src]="sanitizer.bypassSecurityTrustResourceUrl(songData.youtubeLink)"></iframe>
+    </div>
+    <div class="data">
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="title">Song:</td>
+                    <td class="value">{{songData.name}}</td>
+                </tr>
+                <tr>
+                    <td class="title">Genre:</td>
+                    <td class="value">{{songData.genre}}</td>
+                </tr>
+                <tr>
+                    <td class="title">Movie:</td>
+                    <td class="value">{{songData.movie}}</td>
+                </tr>
+                <tr>
+                    <td class="title">Year:</td>
+                    <td class="value">{{songData.year}}</td>
+                </tr>
+                <tr>
+                    <td class="title">Music Director:</td>
+                    <td class="value">{{songData.musicDirector}}</td>
+                </tr>
+                <tr>
+                    <td class="title">Singer:</td>
+                    <td class="value">{{songData.singer}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="notes">
+        <div class="heading">
+            <br><h3>Notes:</h3><br>
+        </div>
+            <div *ngFor="let note of notes" class="songNotes">
+                <p>{{note.split("(")[0]}}</p>
+                <p class="notesRow">{{note.replace(")","").split("(")[1]}}</p>
+            </div>
+    </div>
+</div>
+<div class="footer">
+    <div class="social">
+        <a>Follow us on</a><br>
+        <a href={{youtubeChannel}} target="_blank"><img class="icons" src="../../assets/img/youtube-logo.png"></a>
+        <a href={{instagram}} target="_blank"><img class="icons" src="../../assets/img/insta-logo.png"></a>
+        <a href={{facebook}} target="_blank"><img class="icons" src="../../assets/img/fb-logo.png"></a>
+    </div>
+    <div class="info">
+        <br><p>&copy;Copyright <b>rytKey</b>. All Rights Reserved</p>
+        <a href={{portfolio}} target="_blank" class="me">Designed by <b>Chandra Athithan</b></a>
+    </div>
+</div>

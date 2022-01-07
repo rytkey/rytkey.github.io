@@ -1,0 +1,29 @@
+a, p {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    word-spacing: 2px;
+    text-decoration: none;
+}
+img {
+    height: 32px;
+    padding-top: 7px;
+    padding-left: 20px;
+}
+.me:hover{
+    color: teal;
+}
+.footer {
+    background: transparent;
+    height: 180px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+.social{
+    padding-top: 15px;
+    height: 70px;
+} 
+.info{
+    height: 50px;
+}
